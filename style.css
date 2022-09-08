@@ -1,0 +1,349 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+html,
+body{
+
+    font-size: 110%;
+    display: flex;
+    justify-content: center;
+    user-select: none;
+    overflow: hidden;
+}
+.background{
+    image-rendering:optimizeQuality;
+    position: absolute;
+    height: 160vh;
+}
+.placepoke{
+    image-rendering:pixelated;
+    height: 20vh;
+    position: absolute;
+    margin-top:43.1vh;
+    margin-left: -85vh;
+    z-index: 3;
+    animation: giggle 1s ease infinite;
+    
+}
+.pokedex {
+    z-index: 0;
+    margin-top: 4.5vh;
+    height: 80vh;
+    filter:drop-shadow(0.5vh 0.5vh 0.3vh rgb(0, 0, 0));
+}
+.pokeName{
+    font-family: 'Press Start 2P', cursive;
+    box-shadow: 0vh 0vh 2vh 1vh rgb(255, 238, 0), 2vh 2vh 2vh 2vh rgba(0, 0, 0, 0.19);
+    position: absolute;
+    margin-top:71vh;
+    margin-left: -77.5vh;
+
+    font-size: 1.8vh;
+    z-index: 2;
+    color: #e40000;
+    animation: flicker 0.15s infinite;
+}
+
+.retangle{ 
+    position: absolute;
+    margin-top:67vh;
+    margin-left: -27vh;
+    background-color: #000850;
+    border-radius: 1vh;
+    width: 7vh;
+    height: 4.5vh;
+    cursor: pointer;
+    transition: all 0.1s ease 0s;
+    border: none;
+    box-shadow: 1vh 1vh 1vh 0.1vh #00031d;
+}
+.retangle:hover{
+    transform: translateY(-0.5vh);
+
+}
+.retangle:active{
+    transform: translateY(0.5vh);
+
+}
+.le{
+    position: absolute;
+    margin-top:67vh;
+    margin-left: -38vh;
+}
+.up{
+    position: absolute;
+    margin-top:63vh;
+    margin-left: -32.3vh;
+    width: 4.5vh;
+    height: 8vh;
+    
+
+}
+
+.down{
+    position: absolute;
+    margin-top:70.0vh;
+    margin-left: -32.3vh;
+    width: 4.5vh;
+    height: 5.5vh;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+
+.type{
+    position: absolute;
+    margin-top:66.4vh;
+    margin-left: 35.0vh;
+    height: 6vh;
+    width: 17vh;
+    border-radius: 0.5vh;
+    background-color: #06155C;
+    z-index: 2;
+    border-style: solid;
+    border-width: 0.3vh;
+    
+}
+.text{
+    position: absolute;
+    margin-top:68.4vh;
+    margin-left: 35.0vh;
+    z-index: 3;
+    color: white;
+    font-size: 1.8vh;
+    text-shadow: 0.3vh 0.3vh rgba(0, 0, 0, 0.651);
+    font-family: 'Press Start 2P', cursive;
+    animation: flicker 0.15s infinite;
+}
+
+.blank{
+    background-color: #06155C;
+}
+.grass{
+    background-color: #77CE57;
+}
+.water{
+    background-color: #339AFF;
+}
+.normal{
+    background-color: #AAAA99;
+}
+.fire{
+    background-color: #FF4422;
+}
+.electric{
+    background-color:#FFCC33;
+}
+.ice{
+    background-color: #66CCFF;
+}
+.fighting{
+    background-color: #BB5544;
+}
+.poison{
+    background-color: #AF569D;
+}
+
+.ground{
+    background-color: #DDBB55
+}
+.flying{
+    background-color: #8899FF;
+}
+.psychic{
+    background-color: #FF5599;
+}
+.bug{
+    background-color: #AABB22;
+}
+.rock{
+    background-color: #BBAA66;
+}
+.ghost{
+    background-color: #6666BB;
+}
+.dragon{
+    background-color: #7766EE;
+}
+.dark{
+    background-color: #775544;
+}
+.steel{
+    background-color: #AAAABB;
+}
+.fairy{
+    background-color: #EE99EE;
+}
+
+.r{
+    position: absolute;
+    margin-left: 76.0vh;
+    
+}
+.buttonRight{
+    position: absolute;
+    margin-top:0vh;
+    margin-left: 0vh;
+}
+.crt{
+    position: absolute;
+    margin-top:29.1vh;
+    margin-left: -28.4vh;
+    height: 25.1vh;
+    opacity: 25%;
+    z-index: 4;
+    
+}
+.crtinfo{
+    position: absolute;
+    margin-top:31.4vh;
+    margin-left: 28.4vh;
+    border-radius: 1vh;
+    height: 10.1vh;
+    opacity: 25%;
+    z-index: 4;
+    
+}
+.crtBacklight{
+    position: absolute;
+    margin-top:28.9vh;
+    margin-left: -56.9vh;
+    height: 25.4vh;
+    width: 37.7vh;
+    background-color: rgb(58, 192, 24);
+    z-index: 1;
+    
+    
+}
+.crtFlikerlight{
+    position: absolute;
+    margin-top:28.9vh;
+    margin-left: -56.9vh;
+    height: 25.4vh;
+    width: 37.7vh;
+    background-color: rgba(55, 173, 0, 0.966);
+    box-shadow: 0px 0px 1vh 1vh rgba(0, 255, 76, 0.521), 2vh 2vh 2vh 2vh rgba(0, 0, 0, 0.19);
+    animation: flicker 0.15s infinite;
+    z-index: 2;
+}
+.info{
+    position: absolute;
+    margin-top:32vh;
+    margin-left: 38vh;
+    z-index: 3;
+    color: rgb(255, 255, 255);
+    font-size: 1.8vh;
+    text-shadow: 0.3vh 0.3vh rgb(0, 0, 0);
+    font-family: 'Press Start 2P', cursive;
+    animation: flicker 0.15s infinite;
+}
+.infoDisplay{
+    position: absolute;
+    margin-top: 31.5vh;
+    margin-left: 56.8vh;
+    height: 10vh;
+    width: 39.3vh;
+    border-radius: 1vh;
+    background-color: rgb(58, 192, 24);
+    z-index: 1;
+}
+.infoDisplayFlikerlight{
+    position: absolute;
+    margin-top: 31.5vh;
+    margin-left: 56.8vh;
+    height: 10vh;
+    width: 39.3vh;
+    border-radius: 1vh;
+    background-color: rgba(55, 173, 0, 0.966);
+    box-shadow: 0px 0px 1vh 1vh rgba(0, 255, 76, 0.274), 1vh 1vh 1vh 1vh rgba(0, 0, 0, 0.082);
+    animation: flicker 0.15s infinite;
+    z-index: 2;
+}
+.art{
+    position: absolute;
+    margin-top: 97vh;
+    margin-left: -90vh;
+    color: white;
+    font-size: 1.8vh;
+    text-shadow: 0.3vh 0.3vh rgba(0, 0, 0, 0.651);
+    font-family: 'Press Start 2P', cursive;
+    cursor: pointer;
+}
+@keyframes flicker {
+    0% {
+    opacity: 0.27861;
+    }
+    5% {
+    opacity: 0.34769;
+    }
+    10% {
+    opacity: 0.23604;
+    }
+    15% {
+    opacity: 0.90626;
+    }
+    20% {
+    opacity: 0.18128;
+    }
+    25% {
+    opacity: 0.83891;
+    }
+    30% {
+    opacity: 0.65583;
+    }
+    35% {
+    opacity: 0.67807;
+    }
+    40% {
+    opacity: 0.26559;
+    }
+    45% {
+    opacity: 0.84693;
+    }
+    50% {
+    opacity: 0.96019;
+    }
+    55% {
+    opacity: 0.08594;
+    }
+    60% {
+    opacity: 0.20313;
+    }
+    65% {
+    opacity: 0.71988;
+    }
+    70% {
+    opacity: 0.53455;
+    }
+    75% {
+    opacity: 0.37288;
+    }
+    80% {
+    opacity: 0.71428;
+    }
+    85% {
+    opacity: 0.70419;
+    }
+    90% {
+    opacity: 0.7003;
+    }
+    95% {
+    opacity: 0.36108;
+    }
+    100% {
+    opacity: 0.24387;
+    }
+  }
+@keyframes giggle {
+0%, 100% {
+    transform:translate(-50%,-50%) translateY(-2px);
+}
+50% {
+    transform:translate(-50%,-50%) translateY(2px);
+}
+}
+  

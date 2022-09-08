@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <title>PokeDex by Rocha</title>
+    <link rel="icon" type="image/x-icon" href="https://vignette4.wikia.nocookie.net/fantendo/images/6/61/Pokeball_(Paper).png/revision/latest?cb=20120502185004">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <img class = "background"src="https://wallpapercave.com/wp/wp2711114.gif" alt="">
+    <div class="basePoke"></div>
+    <img class="pokedex" src="svg/poke.svg" alt="">
+
+    <div class="crtBacklight"></div>
+    <div class="crtFlikerlight"></div>
+    
+    <img class="crt" src="crt.jpg" alt="">
+    <div >
+        <img class="placepoke" src="" alt="">
+    </div>
+    <span class="pokeName"></span>
+    <div id="type1" class="type blank"></div>
+    <span id="typetext1" class="text">Ground</span>
+    <div id="type2" class="type r blank"></div>
+    <span id="typetext2" class="text r">Eletrcic</span>
+    <div class="infoDisplay"></div>
+    <div class="infoDisplayFlikerlight"></div>
+    <img class="crtinfo" src="crt2.jpg" alt="">
+    <span  class="info height">Height:</span>
+    <span style="margin-top:38vh; margin-left: 55.0vh;" class="info weight">weight:</span>
+    <span style= "margin-left:75.0vh;"  class="info PokeId">PokeId:</span>
+    <a class="art" href="https://www.artstation.com/artwork/GLgaW">Pokedex Art by: Trippy Sun</a>
+    <a class="art 1"style= "margin-left:70.0vh;" href="https://github.com/th3-Rocha" >Made by me with jss and css</a>
+    <button style="z-index: 5;" onclick="nextPoke()" class="retangle"></button>
+    <button onclick="backPoke()" class="retangle le"></button>
+    <button onclick="upPoke()" class="retangle up"></button>
+    <button onclick="bottomPoke()" style="z-index: 6;" class="retangle down"></button>
+</body>
+<script src="script.js" type="text/javascript"></script>
+</html>
