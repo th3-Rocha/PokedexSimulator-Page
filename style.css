@@ -192,7 +192,7 @@ body{
 .crt{
     position: absolute;
     margin-top:29.1vh;
-    margin-left: -28.4vh;
+    margin-left: -57vh;
     height: 25.1vh;
     opacity: 25%;
     z-index: 4;
@@ -201,7 +201,7 @@ body{
 .crtinfo{
     position: absolute;
     margin-top:31.4vh;
-    margin-left: 28.4vh;
+    margin-left: 57vh;
     border-radius: 1vh;
     height: 10.1vh;
     opacity: 25%;
