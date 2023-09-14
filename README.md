@@ -21,7 +21,7 @@ PokeDex Simulator provides a web-based interface for exploring information about
 ## Credits
 
 - Pokedex Art by [Trippy Sun](https://www.artstation.com/artwork/GLgaW).
-- Made with JavaScript and CSS by Murilo da Rocha(https://github.com/th3-rocha).
+- Made with JavaScript and CSS by Murilo da Rocha
 
 ## License
 
