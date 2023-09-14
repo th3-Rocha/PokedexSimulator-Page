@@ -1,6 +1,6 @@
 # PokeDex Simulator
 
-![PokeDex Art](/pokeDexArt.png)
+![PokeDex Art](pokeDexArt.png)
 
 PokeDex Simulator is an educational project that simulates the functionality of a PokeDex. This project is not affiliated with or endorsed by Nintendo, and the Pokémon license belongs to Nintendo.
 
