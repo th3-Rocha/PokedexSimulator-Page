@@ -1,6 +1,6 @@
 # PokeDex Simulator
 
-![PokeDex](https://vignette4.wikia.nocookie.net/fantendo/images/6/61/Pokeball_(Paper).png/revision/latest?cb=20120502185004)
+![PokeDex]([https://vignette4.wikia.nocookie.net/fantendo/images/6/61/Pokeball_(Paper).png/revision/latest?cb=20120502185004](https://vignette4.wikia.nocookie.net/fantendo/images/6/61/Pokeball_(Paper).png/revision/latest?cb=20120502185004))
 
 PokeDex Simulator is an educational project that simulates the functionality of a PokeDex. This project is not affiliated with or endorsed by Nintendo, and the Pokémon license belongs to Nintendo.
 
